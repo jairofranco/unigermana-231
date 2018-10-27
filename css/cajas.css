@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header, main, footer{
+    border: blue solid 1px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 10px;
+}
+header{
+    display: inline-table;
+    width: 100%;    
+}
+main{
+    height: auto;
+    border: none;
+    background: #DDE3E7; 
+    font-size: 15pt;  
+    display: inline-table; 
+}
+footer{
+}
+.encabezado{
+    width: 33%;
+    display:table-cell;
+    border: green solid 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.contenedor1{
+    width: 49%;
+    padding: 10px 0 0 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg, #37302C 0%, #0D0D12 100%);
+    color: white;
+    text-align: left;
+    overflow: hidden;
+    display: table-cell;
+
+}
+.contenedor1 span, .contenedor2 span{
+    font-size: 20pt;
+}
+.contenedor2{
+    width: 50%;
+    padding: 10px 10px 0 0;
+    box-sizing: border-box;
+    background: #DDE3E7;
+    text-align: right;
+    color: #43525A; 
+    overflow: hidden;
+    margin-left: -5px;  
+    display: table-cell; 
+}
+.ctimg1, .ctimg2{
+    width: 100%;
+    overflow: hidden;
+    text-align: right;
+}
+.ctimg2{
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.ctimg1 img,.ctimg2 img{
+    height: 200px;
+}
+.ctimg2 img{
+    height: 200px;
+}
